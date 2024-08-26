@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🚲 City Ride</title>
+    <style>
+      body {
+        background: linear-gradient(
+          109.6deg,
+          rgb(0, 0, 0) 11.2%,
+          rgb(11, 132, 145) 91.1%
+        );
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background-color: #4f1787;
+        color: white;
+        padding: 12px;
+        border-radius: 20px;
+        border-color: #4f1787;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+      }
+
+      .bikeMaintenance {
+        text-align: left;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 350px;
+        color: #ebf4f6;
+      }
+      button:hover {
+        background-color: white;
+        color: #4f1787;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+      }
+
+      em {
+        color: #dcc064;
+        font-weight: bolder;
+      }
+      footer {
+        padding: 15px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: monospace;
+        color: pink;
+      }
+
+      h1 {
+        padding: 5px;
+        text-shadow: 1px 1px 1px rgb(3, 115, 104);
+        text-align: center;
+        font-weight: bolder;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: #039c85;
+      }
+      h2 {
+        padding: 5px;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgb(5, 85, 81);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: #0970ed;
+      }
+
+      h3 {
+        padding: 5px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgb(145, 59, 2);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: #3dfbac;
+        font-size: 24px;
+      }
+      .intro {
+        padding-block: 10px;
+        text-align: center;
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+        color: azure;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 20px;
+        width: 500px;
+      }
+
+      ol {
+        text-align: right;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 350px;
+        color: aliceblue;
+      }
+
+      .titleMain {
+        padding: 20px;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        width: 400px;
+        margin: 0 auto;
+      }
+
+      .titleMain:hover {
+        background-color: #ebf4f6;
+      }
+
+      .titleRight {
+        list-style: none;
+        color: #3dc2ec;
+        padding: 10px;
+        font-family: fantasy;
+        text-align: right;
+      }
+
+      .titleLeft {
+        list-style: none;
+        color: #3dc2ec;
+        padding: 10px;
+        font-family: fantasy;
+        text-align: left;
+        width: 400px;
+        margin: 0 auto;
+      }
+
+      .textRight {
+        text-align: right;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 400px;
+        color: aliceblue;
+      }
+
+      .textLeft {
+        text-align: left;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 400px;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Biking in the City 🚲🌆</h1>
+    <h2>The Basics of City Riding</h2>
+    <hr />
+    <p class="intro">
+      More and more people are rethinking the car-dominated culture in our
+      cities—and why not? Urban cycling is a <em>blast</em>, keeps you healthy,
+      and lets you discover your town in a whole new way. Whether it’s a quick
+      trip to the grocery store, heading to a concert, or commuting to school or
+      work, <strong>a bike </strong> can get you there. If you want to join the
+      cycling fun, all you need is a bit of know-how. Get familiar with the
+      basics of safe and smart riding, pick out the right gear and accessories,
+      and learn how to keep your bike in great shape.
+    </p>
+    <hr />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/459/original/230130085035-07-biking-cities-montreal.jpg?1723744118"
+      alt="People biking in the city"
+    />
+
+    <h3>Tips to bike in the city</h3>
+
+    <ul>
+      <li class="titleRight titleMain">Choosing a good Bike 🚲:</li>
+      <p class="textRight">
+        <em>Any bike</em> works—road, mountain, hybrid, or even a cargo or
+        e-bike. If it’s rainy, adding fenders is a good idea. No bike? No
+        problem! Many cities have bike-share programs where you can easily rent
+        a bike for quick trips and drop it off at a nearby docking station.
+      </p>
+
+      <li class="titleLeft titleMain">Carrying Stuff 🎒:</li>
+      <p class="textLeft">
+        For those quick bike trips where you need to carry something, there are
+        plenty of options. A <em>daypack or messenger bag</em> is great for
+        light loads, while a <em>front basket</em> adds both style and storage.
+        For bigger hauls, a <em>rear rack with panniers or a basket</em> works
+        perfectly, and for serious cargo, <em>a trailer</em> is your best bet.
+      </p>
+
+      <li class="titleRight titleMain">Bike security 🔐:</li>
+      <p class="textRight">
+        Bike theft happens, but you can lower the risk. Use a <em>lock</em> that
+        matches the situation: a <em>light cable lock</em> for quick stops or a
+        sturdy <em>U-Lock</em> for longer stays. Look for secure parking at
+        events, or bring your bike inside when possible. In high-theft areas,
+        ride a less flashy bike. Keep accessories safe with
+        <em>bolted clamps</em> and take valuables like lights or bike computers
+        with you. And always have a lock handy by keeping one attached to your
+        bike or in your bag.
+      </p>
+      <li class="titleLeft titleMain">Clothing 🚴:</li>
+      <p class="textLeft">
+        You don’t need special clothing for urban cycling. For most rides, your
+        everyday outfit is just fine—just avoid anything that might get caught,
+        like long scarves, flowy skirts, or loose pants. If your pants are
+        loose, roll them up or secure them on the chain side.
+        <em>Regular shoes</em> work well, especially with grippy soles, and a
+        wind or <em>waterproof jacket </em>
+        handy for bad weather. As biking grows in popularity, there’s more
+        stylish, functional gear that combines city fashion with cycling
+        comfort, so you can ride without looking like you’re in full spandex
+        mode.
+      </p>
+      <li class="titleRight titleMain">Safety Rules 🛑:</li>
+      <p class="textRight">
+        Staying safe in traffic comes down to three main things:
+      </p>
+      <ol>
+        <li>
+          <em>Be visible:</em> Wear <em>bright</em> colors or a white helmet,
+          and use front and rear bike lights, even during the day.
+        </li>
+        <li>
+          <em>Be legal:</em> Follow <em> road rules</em>, ride with traffic (not
+          against it), use bike lanes, and avoid sidewalks unless allowed.
+        </li>
+        <li>
+          <em>Be predictable:</em> Signal your turns, avoid sudden moves, and
+          ride in a way that’s considerate to other road users.
+        </li>
+      </ol>
+      <li class="titleLeft titleMain">Bike Maintenance 👨‍🔧:</li>
+      <p class="textLeft">
+        Basic bike care is simple: Air: Tires naturally lose air over time. Pump
+        them up to the recommended pressure once or twice a month. A floor pump
+        with a gauge makes this easy. Oil: Keep your chain lubed for a smooth,
+        quiet ride. Apply chain lube monthly, then wipe off any excess. For flat
+        tires:
+      </p>
+      <ul class="bikeMaintenance">
+        <li>
+          <em>Prevention:</em> Consider tubeless tires to reduce punctures.
+        </li>
+        <li>
+          <em>Backup plan:</em> Know your options—call a friend, hop on public
+          transit, or lock up your bike and come back later.
+        </li>
+        <li>
+          <em>Fix it:</em> Learn to fix flats and carry a repair kit. It’s quick
+          and handy!
+        </li>
+      </ul>
+    </ul>
+    <button>Let's Ride! 🚲</button>
+    <hr />
+    <footer>Coded by Nataly Lopez 👧🏾</footer>
+    <hr />
+    <script>
+      function verifyRide() {
+        let name = askName();
+        let city = askCity();
+        let age = askAge();
+        message(age, name, city);
+      }
+
+      function askName() {
+        return prompt("What is your name?");
+      }
+      function askCity() {
+        return prompt("Where do you live?");
+      }
+      function askAge() {
+        return prompt("How old are you?");
+      }
+
+      function verifyAge(age) {
+        return age >= 18;
+      }
+
+      function message(age, name, city) {
+        if (verifyAge(age)) {
+          alert(`Hi ${name} have fun riding your 🚲 in ${city}`);
+        } else {
+          alert(
+            ` Hi ${name}, please take extra precautions 🛑 biking in ${city}`
+          );
+        }
+      }
+      let rideButton = document.querySelector("button");
+      rideButton.addEventListener("click", verifyRide);
+    </script>
+  </body>
+</html>
